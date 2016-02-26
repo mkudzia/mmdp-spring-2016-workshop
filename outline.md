@@ -13,7 +13,7 @@ Mac OS:
 
 Windows:
 1) Open the Start menu and type `cmd` into the prompt; choose "cmd" from the options that appear
-### Git Command Line Basics
+### Command Line Basics
 Type the part of the text `that looks like this` for each command to try it out
 Mac OS:
 1) Figure out what folder you're in: `pwd`
@@ -36,5 +36,6 @@ Windows:
 	* Move into the right folder: `cd path\to\your\file`
 5) Make a new folder inside that folder: `mkdir foldername` *no spaces in the folder name!*
 6) Make a new file: `fsutil file createnew filename.txt 0`
+### Git basics:
 
 ## GitHub
