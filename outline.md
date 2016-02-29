@@ -75,4 +75,9 @@ Type the part of the text `that looks like this` for each command to try it out.
 2. To "move" to the branch: `checkout branchname`
 3. To do both at once: `git checkout -b branchname`
 
+#### Merging a branch back in:
+1. Start by switching back to the master branch: `git checkout master`
+2. Merge the branch in: `git merge branchname`
+3. Check to verify that it worked: `git status`
+
 ## GitHub
