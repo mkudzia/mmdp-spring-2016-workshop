@@ -14,7 +14,7 @@ Specifically, here you'll find instructions for doing some basic work with Git o
 #### Windows:
 1. Open the Start menu and type `cmd` into the prompt; choose "cmd" from the options that appear
 
-### Git Command Line Basics
+### Command Line Basics
 Type the part of the text `that looks like this` for each command to try it out.
 
 #### Mac OS:
@@ -40,5 +40,20 @@ Type the part of the text `that looks like this` for each command to try it out.
 6. Make a new file: `fsutil file createnew filename.txt 0`
 
 ### Git basics:
+#### Mac OS:
+1. Figure out what folder you're in: `pwd`
+2. If applicable, go back up one directory: `cd ..`
+3. Now that you're back in the folder you made on your Desktop in the last part of the instructions, make it a git repository: `git init`
+
+#### Windows OS:
+1. Figure out what folder you're in: `echo %cd%`
+2. If applicable, go back up one directory: `cd ..`
+3. Now that you're back in the folder you made on your Desktop in the last part of the instructions, make it a git repository: `git init`
+
+#### Everybody:
+4. You should now have an (invisible) file called .git that keeps track of your git changes!
+5. To see what's happening with git and your files: `git status`
+6. To add files to what git tracks: `git add filename` -- this "stages" your file(s)
+7. To save the changes with a message: `git commit -m "your commit message"`
 
 ## GitHub
