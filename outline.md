@@ -56,4 +56,29 @@ Type the part of the text `that looks like this` for each command to try it out.
 6. To add files to what git tracks: `git add filename` -- this "stages" your file(s)
 7. To save the changes with a message: `git commit -m "your commit message"`
 
+#### Everybody, reversing a change:
+1. Updating the commit you just made (with one more change, etc.):
+	* `git commit -m "initial commit"` 
+	* Oops -- you realize you need to add one more file, make one more change to your CSS, etc.
+	* Make changes
+	* `git add forgotten_file.css`
+	* `git commit --amend`
+2. Un-staging a staged file (you stages a file before you realized you were done with it):
+	* `git add filename.js`
+	* `git status`
+```
+On branch master
+Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
+
+ renamed: README.md
+ modified: filename.js
+```
+	* Realize you weren't done with filename.js
+	* `git reset HEAD CONTRIBUTING.md`
+	* `git status` should show that "filename.js" is under "Changes not staged for commit"
+3. Go back to a previous commit (you realize a change didn't work, etc.):
+	* 
+
+
 ## GitHub
