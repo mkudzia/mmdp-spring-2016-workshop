@@ -8,11 +8,14 @@ Specifically, here you'll find instructions for doing some basic work with Git o
 ## Git
 ### Getting started: Opening the command line
 Mac OS:
+
 1) Open Launchpad OR open a finder window and go to "Applications"
 2) Look for the program "Terminal" -- in Launchpad it's probably under "Other," in Finder > Applications it'll be under "Utilities"
 
 Windows:
+
 1) Open the Start menu and type `cmd` into the prompt; choose "cmd" from the options that appear
+
 ### Git Command Line Basics
 Type the part of the text `that looks like this` for each command to try it out
 Mac OS:
