@@ -77,8 +77,9 @@ Type the part of the text `that looks like this` for each command to try it out.
 2. To "move" to the branch: `checkout devbranch`
 3. To do both at once: `git checkout -b devbranch`
 
-#### Merging a branch back in:
+#### Merging a branch back into 'master':
 NOTE: we're not going to attempt this in the workshop
+
 1. Start by switching back to the master branch: `git checkout master`
 2. Merge the branch in: `git merge devbranch`
 3. Check to verify that it worked: `git status`
