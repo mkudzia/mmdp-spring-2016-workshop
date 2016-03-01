@@ -42,19 +42,17 @@ Type the part of the text `that looks like this` for each command to try it out.
 ### Git basics:
 #### Mac OS:
 1. Figure out what folder you're in: `pwd`
-2. If applicable, go back up one directory: `cd ..`
-3. Now that you're back in the folder you made on your Desktop in the last part of the instructions (mmdpTest), make it a git repository: `git init`
 
 #### Windows OS:
 1. Figure out what folder you're in: `echo %cd%`
-2. If applicable, go back up one directory: `cd ..`
-3. Now that you're back in the folder you made on your Desktop in the last part of the instructions (mmdpTest), make it a git repository: `git init`
 
 #### Everybody:
-4. You should now have an (invisible) file called .git that keeps track of your git changes!
-5. To see what's happening with git and your files: `git status`
-6. To add files to what git tracks: `git add sample_folder/basic_text.txt` (*reverse the slash if you're on Windows) -- this "stages" your file(s)
-7. To save the changes with a message: `git commit -m "your commit message"`
+1. If applicable, go back up one directory: `cd ..`
+2. Now that you're back in the folder you made on your Desktop in the last part of the instructions (mmdpTest), make it a git repository: `git init`
+3. You should now have an (invisible) file called .git that keeps track of your git changes!
+4. To see what's happening with git and your files: `git status`
+5. To add files to what git tracks: `git add sample_folder/basic_text.txt` (*reverse the slash if you're on Windows) -- this "stages" your file(s)
+6. To save the changes with a message: `git commit -m "your commit message"`
 
 #### Reversing a change:
 1. Updating the commit you just made (with one more change, etc.):
