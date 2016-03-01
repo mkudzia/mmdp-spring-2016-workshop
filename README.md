@@ -6,3 +6,4 @@ If you're able, you'll find it useful to download and install Git, and to make a
 ## Links
 * Git: [https://git-scm.com/](https://git-scm.com/github)
 * GitHub: [https://github.com/](https://github.com/)
+* Presentation slides: [https://goo.gl/tlozhw](https://goo.gl/tlozhw)
