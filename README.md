@@ -1,5 +1,6 @@
-# mmdp-spring-2016-workshop
-Materials and instructions for Git/GitHub MMDP Workshop Spring 2016
+# Git/GitHub MMDP Workshop Spring 2016 
+## Materials and instructions
+Please see the [outline](outline.md) section for step-by-step instructions.
 
 If you're able, you'll find it useful to download and install Git, and to make a GitHub account before the workshop (please see links below).
 
